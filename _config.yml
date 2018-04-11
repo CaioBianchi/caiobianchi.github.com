@@ -1,0 +1,12 @@
+title: Caio Bianchi
+email: caio@caio.ca
+description: Web Developer
+baseurl: ""
+url: "http://caio.ca"
+github_username:  caiobianchi
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
