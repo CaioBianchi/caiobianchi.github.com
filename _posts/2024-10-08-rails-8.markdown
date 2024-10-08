@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rails 8: A Closer Look at the latest features"
-date: 2024-10-09 04:08:00 -0400
+date: 2024-10-08 04:08:00 -0400
 categories: blog
 ---
 
