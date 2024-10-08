@@ -5,48 +5,40 @@ date: 2024-10-08 04:08:00 -0400
 categories: blog
 ---
 
-# Rails 8: A Closer Look at the Latest Features
-
 Alright, folks, **Rails 8** just dropped, and it's packed with some seriously game-changing features! Whether you're the kind of developer who loves deploying on cloud VMs or want to keep things simple on your own hardware, this version has you covered. Let's dive into the highlights.
-
----
 
 ## Deploy Anywhere with Kamal 2 + Thruster
 
-Deployments are always a pain, right? Well, **Kamal 2** is here to save the day. It's baked into Rails 8 and makes deploying to a fresh Linux box ridiculously easy. Run `kamal setup`, and in less than two minutes, your app is production-ready. The cool part? You don’t even need a PaaS (no more burning cash on that).
+Deployments are always a pain, right? Well, [**Kamal 2**](https://kamal-deploy.org) is here to save the day. It's baked into Rails 8 and makes deploying to a fresh Linux box ridiculously easy. Run `kamal setup`, and in less than two minutes, your app is production-ready. The cool part? You don’t even need a PaaS (no more burning cash on that).
 
-And if you're thinking, "What about Nginx?", Rails 8’s got a new proxy called **Thruster** that handles it all—asset caching, compression, the works—so you can skip adding extra web servers.
-
----
+And if you're thinking, "What about Nginx?", Rails 8’s got a new proxy called [**Thruster**](https://github.com/basecamp/thruster) that handles it all—asset caching, compression, the works—so you can skip adding extra web servers.
 
 ## Solid Cache, Queue, and Cable: Redis Who?
 
-This might blow your mind—Rails 8 cuts down on extra dependencies. You no longer need Redis or Memcached for things like caching, queues, or WebSockets. Instead, **Solid Cache**, **Solid Queue**, and **Solid Cable** now handle those jobs, all powered by SQLite. And SSDs are fast enough that this actually works like a charm.
+This might blow your mind—Rails 8 cuts down on extra dependencies. You no longer need Redis or Memcached for things like caching, queues, or WebSockets. Instead, [**Solid Cache**](https://github.com/rails/solid_cache), [**Solid Queue**](https://github.com/rails/solid_queue), and [**Solid Cable**](https://github.com/rails/solid_cable) now handle those jobs, all powered by SQLite. And SSDs are fast enough that this actually works like a charm.
 
 Running Redis or Sidekiq just to schedule jobs? Forget about it! **Solid Queue** can do all of that natively within Rails, with none of the hassle. And yes, it's ready for production.
-
----
 
 ## SQLite is Ready for Production (No, Really)
 
 In Rails 8, the **SQLite** adapter and Ruby driver have been fully optimized for production use. At **37signals**, they're already running production apps using SQLite with amazing results. So, for smaller apps (or even some bigger ones), you might not need PostgreSQL or MySQL anymore.
 
----
-
 ## Goodbye Sprockets, Hello Propshaft
 
-The days of Sprockets are behind us. **Propshaft** is the new asset pipeline, built from the ground up to work seamlessly with modern JavaScript and HTTP/2. Propshaft doesn't need to handle the crazy bundling and pre-processing stuff from the old days. Instead, it's focused on asset digesting and far-future expiry. Simple, fast, effective.
-
----
+The days of Sprockets are behind us. [**Propshaft**](https://github.com/rails/propshaft) is the new asset pipeline, built from the ground up to work seamlessly with modern JavaScript and HTTP/2. Propshaft doesn't need to handle the crazy bundling and pre-processing stuff from the old days. Instead, it's focused on asset digesting and far-future expiry. Simple, fast, effective.
 
 ## Built-In Authentication Basics
 
 Need user authentication? Rails 8 gives you a simple, out-of-the-box solution. With a single command, you get a basic, secure system for session-based authentication. Rails has been working towards this for a while, but now it’s all neatly packaged for you.
 
----
+`rails g authentication`
 
 ## Final Thoughts
 
 Rails 8 isn’t just an upgrade; it’s an overhaul aimed at making our lives as developers easier, especially when it comes to deployment and simplifying dependencies. If you’ve been hesitant to jump into a new version, now’s the time to give this a spin.
+
+`gem install rails --pre`
+
+> at the time of this writing, it's still in beta
 
 Trust me, you won’t regret it.
