@@ -37,8 +37,6 @@ Need user authentication? Rails 8 gives you a simple, out-of-the-box solution. W
 
 Rails 8 isn’t just an upgrade; it’s an overhaul aimed at making our lives as developers easier, especially when it comes to deployment and simplifying dependencies. If you’ve been hesitant to jump into a new version, now’s the time to give this a spin.
 
-`gem install rails --pre`
-
-> at the time of this writing, it's still in beta
+`gem install rails`
 
 Trust me, you won’t regret it.

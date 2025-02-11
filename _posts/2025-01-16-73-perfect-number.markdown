@@ -2,7 +2,9 @@
 layout: post
 title: "73 is the perfect number"
 date: 2025-01-16 18:20:00 -0400
-categories: blog, math
+categories:
+  - blog
+  - math
 ---
 
 73 is often considered the best number because of its unique mathematical properties. Here’s why:

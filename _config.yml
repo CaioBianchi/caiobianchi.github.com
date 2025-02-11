@@ -1,22 +1,18 @@
+remote_theme: fongandrew/hydeout
+
 title: Caio Bianchi
 author:
   name: Caio Bianchi
-  email: caio@caio.ca
+  url: caio@caio.ca
 
 description: >
-  Your hub for all things code, creativity, and caffeine! 
-  Whether it’s cracking complex algorithms, building sleek web apps, 
-  or debugging life’s little bugs, you’ll find it all here.
+  Software Engineer
 
 baseurl: ""
 url: "https://caio.ca"
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+paginate: 10
 
 permalink: none
-
-minima:
-  skin: solarized
+sidebar_blog_link: "/blog"
+disqus.shortname: ""
