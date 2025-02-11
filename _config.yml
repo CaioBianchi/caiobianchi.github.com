@@ -1,11 +1,15 @@
 title: Caio Bianchi
-email: caio@caio.ca
-description: >- # this means to ignore newlines until "baseurl:"
-  Your hub for all things code, creativity, and caffeine! Whether it’s cracking complex algorithms, building sleek web apps, or debugging life’s little bugs, you’ll find it all here.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://caio.ca" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-github_username: caiobianchi
+author:
+  name: Caio Bianchi
+  email: caio@caio.ca
+
+description: >
+  Your hub for all things code, creativity, and caffeine! 
+  Whether it’s cracking complex algorithms, building sleek web apps, 
+  or debugging life’s little bugs, you’ll find it all here.
+
+baseurl: ""
+url: "https://caio.ca"
 
 # Build settings
 theme: minima
@@ -15,7 +19,4 @@ plugins:
 permalink: none
 
 minima:
-  skin: auto
-  social_links:
-    - { platform: github, user_url: "https://github.com/caiobianchi" }
-    - { platform: linkedin, user_url: "https://linkedin.com/in/caiobianchi" }
+  skin: solarized
