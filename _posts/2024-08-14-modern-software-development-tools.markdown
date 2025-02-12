@@ -19,9 +19,9 @@ When it comes to focus, the AirPods Max are invaluable. Their active noise cance
 
 The iPhone 14 Pro Max is more than just a phone—it's an essential part of a developer’s toolkit. From managing emails on the go to staying connected with your team through messaging apps, the iPhone 14 Pro Max handles it all with ease. Its powerful hardware ensures that even the most demanding apps run smoothly, and its integration with the MacBook Pro creates a seamless experience across devices.
 
-### 4. **Arc Browser**
+### 4. **Safari**
 
-Arc is a browser designed with developers in mind. It offers a sleek interface, powerful tab management features, and deep integration with web development tools. Whether you’re testing a website or running a web app, Arc provides a clean, distraction-free environment that enhances your productivity. It’s a must-have for any developer who spends a significant amount of time in the browser.
+Safari offers a sleek interface, powerful tab management features, and deep integration with web development tools. Whether you're testing a website or running a web app, Safari provides a clean, distraction-free environment that enhances your productivity. It's a must-have for any developer who spends a significant amount of time in the browser.
 
 ### 5. **Mail.app**
 
@@ -39,9 +39,9 @@ Apple Maps is an essential tool when you need to navigate to a new location, whe
 
 For quick note-taking, brainstorming, or even organizing project ideas, Apple Notes is an incredibly versatile tool. It syncs across all your Apple devices, ensuring that your notes are always accessible. Its simplicity is its strength—whether you’re jotting down a quick idea or organizing a detailed project plan, Apple Notes gets the job done without fuss.
 
-### 9. **WezTerm**
+### 9. **Ghostty**
 
-WezTerm is a modern terminal emulator that combines performance with flexibility. Its support for GPU-accelerated rendering and multiple tabs makes it an excellent choice for developers who need a powerful terminal. Whether you’re managing servers, running scripts, or compiling code, WezTerm provides a fast, efficient environment to get your work done.
+Ghostty is a modern terminal emulator that combines performance with flexibility. Its support for GPU-accelerated rendering and multiple tabs makes it an excellent choice for developers who need a powerful terminal. Whether you're managing servers, running scripts, or compiling code, Ghostty provides a fast, efficient environment to get your work done.
 
 ### 10. **NeoVim**
 
