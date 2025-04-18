@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Future of Canada After April 28th, 2025"
-date: 2025-01-16 16:00:00 -0400
+date: 2025-04-18 16:00:00 -0400
 categories:
   - blog
   - politics
