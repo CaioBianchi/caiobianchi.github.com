@@ -7,8 +7,6 @@ categories:
   - coding
 ---
 
-# Level Up Your Terminal: A Journey to Personalized Power ✨
-
 Tired of the same old bland terminal? Does staring at a wall of monochrome text make you yearn for something more... _you_? Well, buckle up, fellow command-line aficionados, because we're about to embark on a thrilling journey into the world of **terminal ricing**. Think of it as giving your terminal a makeover–a personalized touch that not only looks fantastic but also enhances your workflow.
 
 Let's inject some vibrant colour and powerful functionality into your digital workspace. We'll explore some amazing tools that will transform your terminal from a mundane utility into a lean, mean, coding machine (that looks darn good doing it). 💻
@@ -48,6 +46,8 @@ disabled = false
 format = "at $time"
 style = "dimmed white"
 ```
+
+---
 
 ## Tmux: The Terminal Multiplexer Master
 
@@ -91,6 +91,8 @@ bind -n M-Up select-pane -U
 bind -n M-Down select-pane -D
 ```
 
+---
+
 ## btop: A Sleek System Monitor
 
 Tired of the basic `top` or `htop`? `btop` is a modern, interactive system monitor that displays CPU, memory, disk, and network usage in a clean and visually appealing way. It's a fantastic tool to keep an eye on your system's resources.
@@ -103,14 +105,17 @@ You can often find `btop` in your distribution's repositories or install it via 
 pip install btop
 ```
 
+---
+
 ## LazyVim: The Neovim You've Always Dreamed Of
 
-LazyVim: The Neovim You've Always Dreamed Of
 For the coding enthusiasts among us, LazyVim is a game-changing Neovim distribution. It turns Neovim into a full-fledged IDE with sensible defaults, a plethora of pre-configured plugins, and a focus on speed and ease of use. If you've been intimidated by configuring Vim from scratch, LazyVim provides a fantastic entry point to the power of Neovim.
 
 ### Installation
 
 The installation is straightforward and well-documented on the [LazyVim website](https://www.lazyvim.org/). It typically involves cloning the repository and running a script.
+
+---
 
 ## Ghostty: The Future of Terminal Emulators?
 
@@ -119,6 +124,8 @@ While you're busy making your terminal look and feel amazing, consider the termi
 ### Installation
 
 Installation instructions for `Ghostty` can be found on its GitHub repository. It might involve downloading a pre-built binary or building it from source, depending on your operating system.
+
+---
 
 ## The Joy of Customization
 
