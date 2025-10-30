@@ -7,8 +7,6 @@ categories:
   - canada
 ---
 
-# Ottawa: The Capital of "Meh" and Endless Facepalms
-
 Hey there, fellow sufferers of urban disappointment! If you're reading this, you're either an Ottawa resident desperately seeking validation for your daily rage, or you're some wide-eyed tourist thinking, "Ooh, Canada's capital! How quaint!" Spoiler: It's not. Ottawa is like that one friend who shows up to the party in a tuxedo T-shirt – thinks it's fancy, but everyone knows it's just a sad illusion. I've got stories that'll make you laugh, cry, and question why anyone chooses to live here. Buckle up, because we're diving into the absurdity that is Ottawa, the city where logic goes to die.
 
 ## The Weather: Mother Nature's Personal Vendetta
