@@ -1,4 +1,4 @@
-remote_theme: fongandrew/hydeout
+# Custom theme
 
 title: Caio Bianchi
 author:
@@ -14,3 +14,8 @@ url: "https://caio.ca"
 paginate: 10
 
 permalink: none
+
+# Build settings
+highlighter: rouge
+markdown: kramdown
+
