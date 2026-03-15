@@ -159,7 +159,7 @@ p {
   border-bottom: 1px solid var(--border-color);
 }
 
-.post-item:last-child {
+.post-item:last-of-type {
   border-bottom: none;
 }
 
@@ -284,8 +284,6 @@ p {
   margin: 40px 0 20px;
   font-size: 15px;
   font-weight: 500;
-  border-top: 1px solid var(--border-color);
-  padding-top: 30px;
 }
 
 .pagination-prev, .pagination-next {
@@ -302,13 +300,8 @@ p {
 
 .pagination a {
   color: var(--text-color);
-  padding: 10px 16px;
-  border-radius: 8px;
-  background-color: var(--bg-secondary);
-  transition: background-color 0.2s ease;
 }
 
 .pagination a:hover {
-  text-decoration: none;
-  background-color: var(--border-color);
+  text-decoration: underline;
 }
