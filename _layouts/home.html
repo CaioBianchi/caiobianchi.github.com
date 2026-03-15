@@ -22,25 +22,21 @@ layout: default
         </div>
       </article>
     {% endfor %}
+
+    {% if paginator.total_pages > 1 %}
+      <nav class="pagination">
+        <div class="pagination-prev">
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer</a>
+          {% endif %}
+        </div>
+
+        <div class="pagination-next">
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | relative_url }}">Older &rarr;</a>
+          {% endif %}
+        </div>
+      </nav>
+    {% endif %}
   </div>
-
-  {% if paginator.total_pages > 1 %}
-    <nav class="pagination">
-      <div class="pagination-prev">
-        {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer</a>
-        {% endif %}
-      </div>
-      
-      <div class="pagination-page">
-        Page {{ paginator.page }} of {{ paginator.total_pages }}
-      </div>
-
-      <div class="pagination-next">
-        {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path | relative_url }}">Older &rarr;</a>
-        {% endif %}
-      </div>
-    </nav>
-  {% endif %}
 </div>

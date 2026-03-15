@@ -281,8 +281,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 40px auto 60px;
-  max-width: 800px;
+  margin: 40px 0 20px;
   font-size: 15px;
   font-weight: 500;
   border-top: 1px solid var(--border-color);
@@ -299,16 +298,6 @@ p {
 
 .pagination-next {
   text-align: right;
-}
-
-.pagination-page {
-  flex: 1;
-  text-align: center;
-  color: var(--text-secondary);
-  font-size: 13px;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
 }
 
 .pagination a {
