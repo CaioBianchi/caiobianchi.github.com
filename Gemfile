@@ -6,6 +6,8 @@ gem 'csv'
 gem 'bigdecimal'
 gem 'base64'
 
+gem 'jekyll-paginate'
+
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem 'tzinfo', '~> 1.2'
   gem 'tzinfo-data'

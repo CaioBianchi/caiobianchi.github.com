@@ -275,3 +275,26 @@ p {
 .back-button:hover {
   text-decoration: underline;
 }
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.pagination a, .pagination span {
+  padding: 8px 16px;
+  color: var(--text-color);
+}
+
+.pagination a {
+  color: var(--link-color);
+}
+
+.pagination a:hover {
+  text-decoration: underline;
+}

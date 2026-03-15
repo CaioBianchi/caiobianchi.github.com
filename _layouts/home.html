@@ -11,7 +11,7 @@ layout: default
 
 <div class="container">
   <div class="post-list">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
       <article class="post-item">
         <div class="post-item-content">
           <div class="post-meta">{{ post.date | date: "%B %d, %Y" }}</div>
@@ -23,4 +23,20 @@ layout: default
       </article>
     {% endfor %}
   </div>
+
+  {% if paginator.total_pages > 1 %}
+    <nav class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | relative_url }}" class="previous">&laquo; Previous</a>
+      {% endif %}
+      
+      <span class="page_number">
+        Page {{ paginator.page }} of {{ paginator.total_pages }}
+      </span>
+
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | relative_url }}" class="next">Next &raquo;</a>
+      {% endif %}
+    </nav>
+  {% endif %}
 </div>

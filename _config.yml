@@ -19,3 +19,6 @@ permalink: none
 highlighter: rouge
 markdown: kramdown
 
+plugins:
+  - jekyll-paginate
+
