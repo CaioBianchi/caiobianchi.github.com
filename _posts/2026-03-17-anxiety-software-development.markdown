@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Silent Struggle: Anxiety in Software Development"
-date: 2026-03-17 10:00:00 -0400
+date: 2026-03-17 01:25:00 -0400
 categories: blog
 ---
 
@@ -25,13 +25,13 @@ Software development can be an incredibly isolating profession. Even before the 
 
 ![High stakes code on a monitor](https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop)
 
-The stakes in our day-to-day work are often disproportionately high. We write code that powers businesses, handles sensitive user data, and sometimes even affects physical systems. The realization that a single misplaced character or a poorly considered edge case could bring down production, cost the company millions, or expose private information is terrifying. 
+The stakes in our day-to-day work are often disproportionately high. We write code that powers businesses, handles sensitive user data, and sometimes even affects physical systems. The realization that a single misplaced character or a poorly considered edge case could bring down production, cost the company millions, or expose private information is terrifying.
 
-Every deployment feels like walking a tightrope without a net. The Imposter Syndrome that so many developers face only compounds this stress. *What if this is the pull request where everyone finally realizes I don't know what I'm doing?* That fear is a heavy burden to carry every single day.
+Every deployment feels like walking a tightrope without a net. The Imposter Syndrome that so many developers face only compounds this stress. _What if this is the pull request where everyone finally realizes I don't know what I'm doing?_ That fear is a heavy burden to carry every single day.
 
 ## The Illusion of Job Security
 
-Adding fuel to the fire is the current state of the tech market. The days of endless job security and recruiters banging down our doors seem to be behind us. Mass layoffs have become commonplace, and the rapid advancement of AI tools has left many wondering about the future viability of their skills. 
+Adding fuel to the fire is the current state of the tech market. The days of endless job security and recruiters banging down our doors seem to be behind us. Mass layoffs have become commonplace, and the rapid advancement of AI tools has left many wondering about the future viability of their skills.
 
 When you already struggle with anxiety, this lack of stability is devastating. The constant fear of losing your livelihood, coupled with the pressure to continuously learn and "stay relevant" in an ever-shifting landscape, keeps the nervous system in a perpetual state of fight-or-flight.
 
