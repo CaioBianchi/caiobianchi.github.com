@@ -131,6 +131,26 @@ p {
   color: var(--text-secondary);
 }
 
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content p {
+  margin-bottom: 0;
+}
+
+.footer-links a {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: var(--text-color);
+  text-decoration: underline;
+}
+
 /* Home Page List */
 .newsroom-hero {
   text-align: center;
