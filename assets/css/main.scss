@@ -157,9 +157,20 @@ p {
   padding: 80px 20px;
 }
 
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 3px solid var(--bg-color);
+}
+
 .newsroom-hero h1 {
   font-size: 64px;
   font-weight: 700;
+  margin-top: 0;
   margin-bottom: 20px;
   letter-spacing: -0.06em;
 }
