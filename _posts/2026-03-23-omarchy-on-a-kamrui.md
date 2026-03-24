@@ -2,6 +2,7 @@
 layout: post
 title: "Omarchy on a Kamrui Pinova P2: Two Hundred Dollars of Chaos and Joy"
 date: 2026-03-23
+categories: blog
 tags: [linux, omarchy, hyprland, arch, mini-pc, devtools]
 ---
 
