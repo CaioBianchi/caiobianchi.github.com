@@ -119,6 +119,6 @@ It may be the year Microsoft forced people to seriously imagine both.
 [^github-status]: GitHub, [GitHub Status](https://www.githubstatus.com/), accessed April 6, 2026.
 [^macbook-neo]: Apple, ["Say hello to MacBook Neo"](https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/), March 4, 2026.
 [^statcounter]: Statcounter Global Stats, [Desktop Operating System Market Share Worldwide](https://gs.statcounter.com/os-market-share/desktop/worldwide), March 2026 data, accessed April 6, 2026.
-[^zac]: Zac Bowden, [post on X](https://x.com/zacbowden/status/2033211622203007108), March 15, 2026. The linked post was not directly retrievable in this environment because X blocks unauthenticated rendering, but its indexed snippet states Microsoft appeared to have shelved plans to bring Copilot to shell surfaces like notifications and Settings.
+[^zac]: Zac Bowden, [post on X](https://x.com/zacbowden/status/2033211622203007108), March 15, 2026.
 [^windows-central-scaleback]: Windows Central, [post on X](https://x.com/WindowsCentral/status/2033921922191303034), March 17, 2026. Indexed snippet describes Microsoft scaling back Copilot in Windows 11 and reducing some Microsoft 365 Copilot access.
 [^windows-central-usage]: Windows Central, [post on X](https://x.com/WindowsCentral/status/2025933511937376462), February 23, 2026. Indexed snippet describes Microsoft calling Copilot the "king of productivity" on Windows 11 while usage data suggested weaker adoption.
