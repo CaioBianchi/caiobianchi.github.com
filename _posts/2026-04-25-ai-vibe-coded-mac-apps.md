@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Mac App Gold Rush in the Age of Vibe Coding"
+date: 2026-04-25 00:00:00 -0400
 categories: blog
 tags: [mac, ai, indie-apps, privacy, security, software-development]
 ---
